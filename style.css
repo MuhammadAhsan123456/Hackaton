@@ -1,6 +1,96 @@
 
 
 
-.link ul li a:hover{
-    color: orange;
+.campus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .campus-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .campus-col img {
+    width: 100%;
+    display: block;
+  }
+  .layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  .layer:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+  }
+  .layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .layer:hover h3 {
+    bottom: 69%;
+    opacity: 1;
+  }
+  .layer a {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .layer:hover a {
+    bottom: 59%;
+    opacity: 1;
+  }
+
+
+  nav{
+    background-color: #2B2E4A;
+    margin-top: -40px;
+  }
+ nav h1{
+  color: orange;
+  text-align: center;
+  margin-top: 8px;
+  margin-left: 2rem;
+ }
+ nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 1rem;
+ }
+ nav a:hover{
+  color: orange;
+ }
+
+.good:hover{
+  background-color: #2B2E4A;
+  color: white;
+  height: 20rem;
 }
+
+
+  
